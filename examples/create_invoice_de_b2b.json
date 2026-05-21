@@ -22,7 +22,8 @@
         "address_line1": "Hauptstrasse 1",
         "postcode": "10117",
         "city": "Berlin",
-        "tax_id": "DE987654321"
+        "tax_id": "DE987654321",
+        "contact_email": "ap@acme.example"
       },
       "line_items": [
         {

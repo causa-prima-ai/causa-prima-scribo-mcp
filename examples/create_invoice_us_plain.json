@@ -18,7 +18,8 @@
         "country_code": "US",
         "address_line1": "1 Innovation Way",
         "postcode": "10001",
-        "city": "New York"
+        "city": "New York",
+        "contact_email": "ap@acme.example"
       },
       "line_items": [
         {

@@ -52,7 +52,8 @@
         "country_code",
         "address_line1",
         "postcode",
-        "city"
+        "city",
+        "contact_email"
       ],
       "properties": {
         "legal_name": { "type": "string" },
@@ -62,7 +63,11 @@
         "postcode": { "type": "string" },
         "city": { "type": "string" },
         "tax_id": { "type": "string" },
-        "contact_email": { "type": "string", "format": "email" },
+        "contact_email": {
+          "type": "string",
+          "format": "email",
+          "description": "Recipient's accounts-payable / billing email. Required — Scribo refuses to draft without it (seeds the per-tenant business-partner record so the recipient can be reached for the transparency / opt-out flow)."
+        },
         "leitweg_id": {
           "type": "string",
           "description": "DE B2G — forces XRechnung CII when present"

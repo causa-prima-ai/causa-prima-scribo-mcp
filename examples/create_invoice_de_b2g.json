@@ -22,6 +22,7 @@
         "address_line1": "Friedrich-Ebert-Allee 38",
         "postcode": "53113",
         "city": "Bonn",
+        "contact_email": "rechnungseingang@bas.bund.de",
         "leitweg_id": "991-12345-67"
       },
       "line_items": [
