@@ -1,0 +1,43 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "tools/call",
+  "params": {
+    "name": "create_invoice",
+    "arguments": {
+      "sender": {
+        "legal_name": "Causa Prima Germany GmbH",
+        "country_code": "DE",
+        "address_line1": "Example Allee 1",
+        "postcode": "10115",
+        "city": "Berlin",
+        "tax_id": "DE123456789",
+        "contact_email": "billing@example.com",
+        "contact_name": "Jane Schmidt",
+        "contact_phone": "+49 30 12345678"
+      },
+      "recipient": {
+        "legal_name": "Bundesamt für Soziale Sicherung",
+        "country_code": "DE",
+        "address_line1": "Friedrich-Ebert-Allee 38",
+        "postcode": "53113",
+        "city": "Bonn",
+        "leitweg_id": "991-12345-67"
+      },
+      "line_items": [
+        {
+          "description": "Compliance review",
+          "quantity": "5",
+          "unit_code": "HUR",
+          "unit_price": "180.00",
+          "tax_rate": "19",
+          "tax_category_code": "S"
+        }
+      ],
+      "currency": "EUR",
+      "due_date": "2026-06-30",
+      "payment_terms": "Net 30",
+      "delivery_date": "2026-05-15"
+    }
+  }
+}

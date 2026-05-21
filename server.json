@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.causaprimaai/scribo",
+  "description": "Generate EN 16931-compliant e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol BIS UBL, Spanish Facturae) or a plain US PDF. Free; the sender's email is the login.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scribo.causaprima.ai",
+  "repository": {
+    "url": "https://github.com/CausaPrimaAI/scribo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scribo.causaprima.ai/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tool": "manual",
+      "version": "1.0.0"
+    }
+  }
+}

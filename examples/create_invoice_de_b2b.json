@@ -1,0 +1,46 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "tools/call",
+  "params": {
+    "name": "create_invoice",
+    "arguments": {
+      "sender": {
+        "legal_name": "Causa Prima Germany GmbH",
+        "country_code": "DE",
+        "address_line1": "Example Allee 1",
+        "postcode": "10115",
+        "city": "Berlin",
+        "tax_id": "DE123456789",
+        "contact_email": "billing@example.com",
+        "contact_name": "Jane Schmidt",
+        "contact_phone": "+49 30 12345678"
+      },
+      "recipient": {
+        "legal_name": "Acme GmbH",
+        "country_code": "DE",
+        "address_line1": "Hauptstrasse 1",
+        "postcode": "10117",
+        "city": "Berlin",
+        "tax_id": "DE987654321"
+      },
+      "line_items": [
+        {
+          "description": "Senior backend consulting",
+          "quantity": "3",
+          "unit_code": "DAY",
+          "unit_price": "1200.00",
+          "tax_rate": "19",
+          "tax_category_code": "S"
+        }
+      ],
+      "currency": "EUR",
+      "due_date": "2026-06-15",
+      "payment_terms": "Net 14",
+      "delivery_period": {
+        "start": "2026-05-19",
+        "end": "2026-05-21"
+      }
+    }
+  }
+}
