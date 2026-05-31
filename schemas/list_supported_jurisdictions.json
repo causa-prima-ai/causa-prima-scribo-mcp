@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/CausaPrimaAI/scribo-mcp/blob/main/schemas/list_supported_jurisdictions.json",
+  "$id": "https://github.com/causa-prima-ai/scribo-mcp/blob/main/schemas/list_supported_jurisdictions.json",
   "title": "scribo.list_supported_jurisdictions input",
   "description": "List jurisdictions Scribo can emit invoices for, with the available formats and the default format per jurisdiction. Takes no arguments.",
   "type": "object",
