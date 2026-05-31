@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/CausaPrimaAI/scribo-mcp/blob/main/schemas/create_invoice.json",
+  "$id": "https://github.com/causa-prima-ai/scribo-mcp/blob/main/schemas/create_invoice.json",
   "title": "scribo.create_invoice input",
   "description": "Generate an EN 16931-compliant invoice (XRechnung / ZUGFeRD / Factur-X / Peppol BIS / Facturae) or a plain US PDF, depending on the parties' jurisdictions. Returns a download URL.",
   "type": "object",

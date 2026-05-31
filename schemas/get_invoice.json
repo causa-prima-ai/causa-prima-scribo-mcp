@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/CausaPrimaAI/scribo-mcp/blob/main/schemas/get_invoice.json",
+  "$id": "https://github.com/causa-prima-ai/scribo-mcp/blob/main/schemas/get_invoice.json",
   "title": "scribo.get_invoice input",
   "description": "Fetch a previously generated invoice and its current download URL.",
   "type": "object",
