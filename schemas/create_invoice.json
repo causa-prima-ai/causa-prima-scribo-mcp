@@ -149,7 +149,7 @@
     },
     "issue_date": {
       "type": "string",
-      "description": "Invoice issue date (BT-2), ISO YYYY-MM-DD. Defaults to today if omitted."
+      "description": "Invoice issue date (BT-2), ISO date YYYY-MM-DD. Defaults to today if omitted."
     },
     "due_date": {
       "type": "string",
