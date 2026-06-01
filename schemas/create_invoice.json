@@ -143,6 +143,14 @@
       ]
     },
     "notes": { "type": "string", "maxLength": 1000 },
+    "invoice_number": {
+      "type": "string",
+      "description": "Optional invoice number to print on the invoice (BT-1). If omitted, Scribo assigns one."
+    },
+    "issue_date": {
+      "type": "string",
+      "description": "Invoice issue date (BT-2), ISO YYYY-MM-DD. Defaults to today if omitted."
+    },
     "due_date": {
       "type": "string",
       "description": "ISO date YYYY-MM-DD. BT-9 (Payment due date)."
