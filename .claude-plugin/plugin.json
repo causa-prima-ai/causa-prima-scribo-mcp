@@ -9,7 +9,7 @@
   },
   "homepage": "https://scribo.causaprima.ai",
   "repository": "https://github.com/causa-prima-ai/scribo-mcp",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "keywords": ["invoice", "e-invoicing", "en16931", "xrechnung", "zugferd", "scribo", "mcp"],
   "mcpServers": {
     "scribo": {
