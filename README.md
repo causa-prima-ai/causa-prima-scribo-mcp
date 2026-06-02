@@ -37,7 +37,52 @@ _🎥 Demo video coming soon._
 
 ## Getting started
 
-> 🚧 Being migrated — current install & client-config details are in **[Previous README](#previous-readme)** below.
+### Quickstart
+
+Scribo's MCP server is hosted — there's nothing to install. Point your client at:
+
+```
+https://scribo.causaprima.ai/mcp
+```
+
+In **Claude Desktop or Claude.ai**: **Customize → Connectors → Add custom connector**, name it `Scribo`, paste the URL, and save. Then just ask:
+
+> Draft an invoice for 3 days of consulting at €1,200/day to Acme GmbH.
+
+Scribo collects the missing details, verifies your sender email once, and returns a download link.
+
+Using a different client? See the per-client setup below.
+
+### Setup & prerequisites
+
+The server speaks MCP over **Streamable HTTP** (JSON-RPC 2.0, MCP spec ≥ 2025-03-26) with **no auth**. Any MCP-aware client connects with one setting — the URL `https://scribo.causaprima.ai/mcp`.
+
+**Claude Desktop / Claude.ai** — Customize → Connectors → Add custom connector → name `Scribo`, paste the URL. On Team/Enterprise plans an org owner may need to add it once under Organization settings → Connectors.
+
+**Cursor** — add to `~/.cursor/mcp.json` (or workspace `.cursor/mcp.json`):
+
+```json
+{ "mcpServers": { "scribo": { "url": "https://scribo.causaprima.ai/mcp" } } }
+```
+
+**Cline** — add to `cline_mcp_settings.json`:
+
+```json
+{ "mcpServers": { "scribo": { "transport": "streamable-http", "url": "https://scribo.causaprima.ai/mcp" } } }
+```
+
+**OpenAI Codex CLI** — add to `~/.codex/config.toml`, then restart Codex:
+
+```toml
+[mcp_servers.scribo]
+url = "https://scribo.causaprima.ai/mcp"
+```
+
+**Any other MCP client** — configure a remote server at the URL above, transport Streamable HTTP, no auth.
+
+> Prefer a plain-bash setup with no connector in the loop? The [Scribo skill](https://github.com/causa-prima-ai/causa-prima-scribo-skill) covers Claude Code, Claude.ai, Claude Desktop, and Codex via simple helper scripts.
+
+**Verify.** Ask your assistant: _"list the jurisdictions Scribo supports."_
 
 ## Usage
 
