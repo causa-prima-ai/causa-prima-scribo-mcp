@@ -1,3 +1,5 @@
+<img width="3840" height="1920" alt="A3 _ MCP server" src="https://github.com/user-attachments/assets/21e2cf1e-69c0-414c-9cee-180a60c17f51" />
+
 # Scribo MCP — public registry metadata
 
 <img src="./icon.svg" alt="Scribo" width="96" align="right" />
