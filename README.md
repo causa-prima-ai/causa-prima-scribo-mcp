@@ -122,4 +122,4 @@ back, re-download, or upgrade to a full Causa Prima account.
 
 ## License
 
-`UNLICENSED` — proprietary. © Causa Prima Germany GmbH. All rights reserved.
+Proprietary — © Causa Prima Germany GmbH. All rights reserved. See [LICENSE](./LICENSE).
