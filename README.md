@@ -110,6 +110,7 @@ Scribo is built to be operated by an agent. It ships as an **MCP server**, a **C
 [Causa Prima](https://causaprima.ai/) — a company building agentic AI for the CFO office. Operated by Causa Prima Germany GmbH, Munich.
 
 </details>
+
 ## Resources
 
 - **Web app** — [scribo.causaprima.ai](https://scribo.causaprima.ai)
