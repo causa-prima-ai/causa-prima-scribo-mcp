@@ -8,8 +8,13 @@
 
 - [What is Scribo?](#what-is-scribo)
 - [What is the Scribo MCP server?](#what-is-the-scribo-mcp-server)
+  - [Demo](#demo)
 - [Getting started](#getting-started)
+  - [Quickstart](#quickstart)
+  - [Setup & prerequisites](#setup--prerequisites)
 - [Usage](#usage)
+  - [How it works](#how-it-works)
+  - [Examples](#examples)
 - [Compliance](#compliance)
 - [FAQ](#faq)
 - [Resources](#resources)
