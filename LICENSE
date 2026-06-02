@@ -2,11 +2,9 @@ Copyright (c) 2026 Causa Prima Germany GmbH
 
 All rights reserved.
 
-This repository and its contents (registry metadata, JSON schemas, and
-example payloads for the Scribo MCP server) are proprietary and
-confidential. No license is granted to use, copy, modify, or distribute
-them, in whole or in part, except as expressly authorized in writing by
-Causa Prima Germany GmbH.
+This repository and its contents are proprietary and confidential. No
+license is granted to use, copy, modify, or distribute them, in whole or
+in part, except as expressly authorized in writing by Causa Prima
+Germany GmbH.
 
-The Scribo MCP server is operated as a hosted service at
-https://scribo.causaprima.ai/mcp.
+Scribo is operated as a hosted product at https://scribo.causaprima.ai.
