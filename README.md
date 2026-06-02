@@ -134,7 +134,7 @@ hosted URL and you're done.
 ### Claude Code (recommended)
 
 ```sh
-/plugin marketplace add causa-prima-ai/scribo-mcp
+/plugin marketplace add causa-prima-ai/causa-prima-scribo-mcp
 /plugin install scribo-mcp@scribo-mcp
 # or, when the name is unambiguous across your installed marketplaces:
 /plugin install scribo-mcp
