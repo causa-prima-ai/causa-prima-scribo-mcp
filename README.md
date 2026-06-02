@@ -26,7 +26,14 @@ Just ask your AI agent about Scribo: it ships as an MCP server, a CLI, and a Cla
 
 ## What is the Scribo MCP server?
 
-> 🚧 Being migrated into Scribo's shared README structure — for now, see **[Previous README](#previous-readme)** at the bottom of this page.
+The Scribo MCP server gives your AI assistant the ability to create invoices for you. It's a hosted [Model Context Protocol](https://modelcontextprotocol.io) endpoint — add its URL to your assistant once, then just ask for an invoice and it gathers the details and hands back a finished, compliant invoice in the chat, ready to download and send.
+
+Because it's hosted, there's nothing to install or run locally. It works with any MCP-aware client — **Claude Desktop, Claude.ai, Cursor, Cline, ChatGPT App, the OpenAI Codex CLI**, and others. Free, no signup — your email is all you need.
+
+### Demo
+
+<!-- TODO: add demo video here -->
+_🎥 Demo video coming soon._
 
 ## Getting started
 
