@@ -56,30 +56,61 @@ Scribo emits invoices conforming to **EN 16931**, the European e-invoicing stand
 
 ## FAQ
 
-**Is Scribo really free?**
+<details>
+<summary><strong>Is Scribo really free?</strong></summary>
+
 Yes — free forever. No credit card, no subscription, no paywall before your first invoice. You just need a sender email.
 
-**Do I need an account or signup?**
+</details>
+
+<details>
+<summary><strong>Do I need an account or signup?</strong></summary>
+
 No signup form. Scribo uses a magic-link login: you provide a sender email (which the invoice needs anyway), confirm via a one-time link, and you're in.
 
-**Which countries and formats are supported?**
+</details>
+
+<details>
+<summary><strong>Which countries and formats are supported?</strong></summary>
+
 Live today: **Germany** — ZUGFeRD (B2B) and XRechnung (B2G) — and the **United States** (plain PDF). Coming next: **France** (Factur-X), **Spain** (Facturae), and **Belgium** (Peppol BIS 3.0).
 
-**What does "EN 16931-compliant" actually mean here?**
+</details>
+
+<details>
+<summary><strong>What does "EN 16931-compliant" actually mean here?</strong></summary>
+
 Every invoice is validated against the **EN 16931-1:2017** rule set (via the Invopop-hosted validator) before it's returned. Output that fails validation never reaches you.
 
-**Is the US version compliant?**
+</details>
+
+<details>
+<summary><strong>Is the US version compliant?</strong></summary>
+
 Yes. There is no US e-invoicing mandate, so Scribo produces a fully compliant plain PDF.
 
-**Does Scribo give tax or legal advice?**
+</details>
+
+<details>
+<summary><strong>Does Scribo give tax or legal advice?</strong></summary>
+
 No. Scribo generates and validates compliant invoice *documents*. It does not determine your tax obligations, VAT treatment, or filing requirements.
 
-**How do AI agents / LLMs use Scribo?**
+</details>
+
+<details>
+<summary><strong>How do AI agents / LLMs use Scribo?</strong></summary>
+
 Scribo is built to be operated by an agent. It ships as an **MCP server**, a **CLI**, and a **Claude/Codex skill**, plus a public **HTTP API** and a **web app** — all on the same backend. An agent can discover Scribo, create an invoice, and return the file on a user's behalf.
 
-**Who builds Scribo?**
+</details>
+
+<details>
+<summary><strong>Who builds Scribo?</strong></summary>
+
 [Causa Prima](https://causaprima.ai/) — a company building agentic AI for the CFO office. Operated by Causa Prima Germany GmbH, Munich.
 
+</details>
 ## Resources
 
 - **Web app** — [scribo.causaprima.ai](https://scribo.causaprima.ai)
