@@ -36,8 +36,7 @@ Because it's hosted, there's nothing to install or run locally. It works with an
 
 ### Demo
 
-<!-- TODO: add demo video here -->
-_🎥 Demo video coming soon._
+https://github.com/user-attachments/assets/3e1fcca8-580b-448f-bb1c-bee5ee016b54
 
 ## Getting started
 
